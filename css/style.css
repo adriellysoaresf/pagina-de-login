@@ -1,0 +1,144 @@
+* {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D4E8C2;
+    min-height: 100vh;
+}
+
+div.card {
+    width: 26.25em;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+div.barbies-girls {
+    display: flex;
+    flex-direction: column;
+}
+
+div.barbies-girls h1 {
+    font-size: 36px;
+    color: #EC6C98;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.barbies-girls p{
+    text-align: center;
+    color: #302f2f;
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-email, .campo-senha{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+div.campo-email input,div.campo-senha input{
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #d9d9d9;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: .3s;
+
+    background-color: #EC6C98;
+}
+
+div.campo-email input:focus,div.campo-senha input:focus{
+    box-shadow: 0 0 5px rgba(236, 108, 152, 0.5);
+    border: 2px solid #EC6C98;
+    
+}
+
+input[type="email"]::placeholder, input[type="password"]::placeholder{
+    color: #000000;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.lembrar {
+    display: flex;
+    gap: 8px;
+}
+
+.lembrar input{
+    width: 15px;
+    height: 15px;
+}
+
+.opcoes{
+    text-decoration: none;
+    color: #EC6C98;
+    font-size: 14px;
+}
+
+.opcoes:hover{
+    text-decoration: underline;
+}
+
+.login{
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #EC6C98;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.login:hover{
+    background: #df4f82;
+}

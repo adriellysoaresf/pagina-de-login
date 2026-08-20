@@ -4,7 +4,7 @@
 
 ### Uma interface simples para praticar formulários e estilização.ᐟ
 
-Projeto colaborativo desenvolvido durante os estudos de **Front-end**, com o objetivo de criar e estilizar uma página de login utilizando HTML e CSS.
+Projeto colaborativo desenvolvido durante os estudos de **Front-end** com o objetivo de criar e estilizar uma página de login utilizando HTML e CSS.
 
 <br>
 
